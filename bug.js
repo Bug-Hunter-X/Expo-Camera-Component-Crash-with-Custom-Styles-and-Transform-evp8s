@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Camera` component with a custom `style` prop that includes a `transform` property. The transform property might interfere with the Camera's internal rendering process, leading to unexpected behavior or crashes.  This is especially true when using transforms that involve scaling or rotation.
